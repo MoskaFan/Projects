@@ -1,0 +1,25 @@
+body{
+	margin: 0;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	height: 100vh;
+	font-family: 'Courier New', Courier, monospace;
+	
+}
+
+}
+#container{
+	width: 300px;
+	height: 200px;
+	background: gainsboro;
+	border: 5px solid #333;
+	display: flex;
+
+	
+}
+
+input{
+	text-align: center;
+}
