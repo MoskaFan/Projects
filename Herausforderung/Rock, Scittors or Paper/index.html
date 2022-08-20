@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Rock, scittors or paper</h1>
+        <p>Rock paper scissors is a classic two player game. Each player chooses either rock, paper, or scissors. The items are compared, and whichever player chooses the more powerful item wins.</p>
+        <p>The possible outcomes are:</p>
+        <ul>
+            <li>Rock destroys scissors.</li>
+            <li>Scissors cut paper.</li>
+            <li>Paper covers rock.</li>
+            <li>If there’s a tie, then the game ends in a draw</li>       
+        </ul>
+        <p>Let´s play!</p>
+        <h2>Choose an option: rock, paper or scittors:</h2>
+        <p><input type="checkbox" name="rock" class="radio" id="rock" value="Rock">Rock</p>
+        <p><input type="checkbox" name="scittors" class="radio" id="scittors" value="scittors">Scittors</p>    
+        <p><input type="checkbox" name="paper" class="radio" id="paper" value="Paper">Paper</p>    
+        <p><label class="label userChoice" >Your choice is: <span id="userChoice">rock</span></label></p>
+        <p><label class="label computerChoice">My choice is: <span id="computerChoice">paper</span></label></p>     
+        <p><label class="label determineWinner" id="determineWinner">You won</span></label></p> 
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
