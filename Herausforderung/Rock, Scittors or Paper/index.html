@@ -20,14 +20,20 @@
         </ul>
         <p>Let´s play!</p>
         <h2>Choose an option: rock, paper or scittors:</h2>
-        <p><input type="checkbox" name="rock" class="radio" id="rock" value="Rock">Rock</p>
-        <p><input type="checkbox" name="scittors" class="radio" id="scittors" value="scittors">Scittors</p>    
-        <p><input type="checkbox" name="paper" class="radio" id="paper" value="Paper">Paper</p>    
-        <p><label class="label userChoice" >Your choice is: <span id="userChoice">rock</span></label></p>
-        <p><label class="label computerChoice">My choice is: <span id="computerChoice">paper</span></label></p>     
-        <p><label class="label determineWinner" id="determineWinner">You won</span></label></p> 
+        <p class="userChoice">
+            <input type="radio" name="input" class="radio" id="rock" value="Rock" checked>Rock<br>
+            <input type="radio" name="input" class="radio" id="scittors" value="scittors">Scittors<br>  
+            <input type="radio" name="input" class="radio" id="paper" value="Paper">Paper<br>
+            <button class="game">Let´s play</button>
+        </p>
+ 
+        <p><label class="label1" >Your choice is: <span id="userChoice" style="text-transform:uppercase">rock</span></label></p>
+        <p><label class="label2">My choice is: <span id="computerChoice" style="text-transform:uppercase">paper</span></label></p>     
+        <p><label class="label3" id="determineWinner">You won</span></label></p> 
 
     </div>
+
+
 
     <script src="index.js"></script>
 </body>
