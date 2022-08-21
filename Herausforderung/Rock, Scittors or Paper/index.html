@@ -20,16 +20,21 @@
         </ul>
         <p>Let´s play!</p>
         <h2>Choose an option: rock, paper or scittors:</h2>
-        <p class="userChoice">
-            <input type="radio" name="input" class="radio" id="rock" value="Rock" checked>Rock<br>
-            <input type="radio" name="input" class="radio" id="scittors" value="scittors">Scittors<br>  
-            <input type="radio" name="input" class="radio" id="paper" value="Paper">Paper<br>
+        <p class="p_0">
+            <input type="radio" name="input" class="radio" id="rock" value="rock" checked style="text-transform:uppercase">rock<br>
+            <input type="radio" name="input" class="radio" id="scittors" value="scissors" style="text-transform:uppercase">scissors<br>  
+            <input type="radio" name="input" class="radio" id="paper" value="paper" style="text-transform:uppercase">paper<br><br> 
+            
+        </p>
+        <p class="p_1">
             <button class="game">Let´s play</button>
         </p>
  
-        <p><label class="label1" >Your choice is: <span id="userChoice" style="text-transform:uppercase">rock</span></label></p>
-        <p><label class="label2">My choice is: <span id="computerChoice" style="text-transform:uppercase">paper</span></label></p>     
-        <p><label class="label3" id="determineWinner">You won</span></label></p> 
+        <p class="p_2">
+        Your choice is: <span id="userChoice" style="text-transform:uppercase">rock</span><br><br>
+        My choice is: <span id="computerChoice" style="text-transform:uppercase">paper</span><br><br>
+        <span id="determineWinner" style="text-transform:uppercase">You won</span><br>
+       </p> 
 
     </div>
 

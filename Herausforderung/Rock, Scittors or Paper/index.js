@@ -17,7 +17,7 @@ function getUserChoice() {
       return 'rock';
   } else if (computerChoice === 1){
       return 'paper';
-  } else if (userInput === 2){
+  } else if (computerChoice === 2){
       return 'scissors';    
   }
   };
@@ -25,26 +25,31 @@ function getUserChoice() {
   
   
   function determineWinner(userChoice, computerChoice){
-    if (userChoice===computerChoice){
-      console.log("The game was a tie"); 
+
+    let winner = "You won";
+    let looser = "You have lost";
+    let tie = "The game was a tie";
+    if (userChoice === computerChoice){
+      return tie;
+
     }else{
         if(userChoice==='rock'){
             if(computerChoice === 'paper'){
-            console.log("You have lost");
+            return looser;
             }else{
-            console.log("You won");
+                return winner;
                 }
         }else if (userChoice==='scissors'){
             if(computerChoice === 'rock'){
-            console.log("You have lost");
+                return looser;
             }else{
-            console.log("You won");
+                return winner;
                 }
         }else{
             if(computerChoice === 'scissors'){
-            console.log("You have lost");
+                return looser;
             }else{
-                console.log("You won");
+                return winner;
                 }
         }
     
